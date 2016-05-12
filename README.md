@@ -6,10 +6,11 @@ Put message to CloudWatch Logs.
 
 ```
 Usage of cwlogs-cat:
+  -a  auto create stream
   -g string
-      log-group-name
+      log group name
   -s string
-      log-stream-name
+      log stream name
 ```
 
 ```sh
