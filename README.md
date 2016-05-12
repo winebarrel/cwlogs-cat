@@ -1,6 +1,6 @@
 # cwlogs-cat
 
-Put message to  to CloudWatch Logs.
+Put message to CloudWatch Logs.
 
 ## Usage
 
