@@ -15,3 +15,9 @@ Usage of cwlogs-cat:
 ```sh
 cat hello | cwlogs-cat -g my-group -s my-stream
 ```
+
+## Installation
+
+```
+brew install https://raw.githubusercontent.com/winebarrel/cwlogs-cat/master/homebrew/cwlogs-cat.rb
+```
