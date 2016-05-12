@@ -5,7 +5,7 @@ class CwlogsCat < Formula
 
   homepage 'https://github.com/winebarrel/cwlogs-cat'
   url "https://github.com/winebarrel/cwlogs-cat/releases/download/v#{VERSION}/cwlogs-cat-v#{VERSION}-darwin-amd64.gz"
-  sha256 'f22dfd3e671ade54a8e7a1e7d41c3cf3adfb6654ae6554b54e30924fa6e5ebe3'
+  sha256 'e81020b0c8059359d9b36dc9b967c41bca2f0b1a62139fe0d4979a833a2179af'
   version VERSION
   head 'https://github.com/winebarrel/cwlogs-cat.git', :branch => 'master'
 
