@@ -24,8 +24,8 @@ func putLogsEvents(svc *cloudwatchlogs.CloudWatchLogs, log_group_name string, lo
 	params := &cloudwatchlogs.PutLogEventsInput{
 		LogEvents: []*cloudwatchlogs.InputLogEvent{
 			{
-				Message: aws.String(message),
-				Timestamp: aws.Int64(time.Now().UnixNano() / int64(time.Millisecond))
+				Message:   aws.String(message),
+				Timestamp: aws.Int64(time.Now().UnixNano() / int64(time.Millisecond)),
 			},
 		},
 		LogGroupName:  aws.String(log_group_name),
