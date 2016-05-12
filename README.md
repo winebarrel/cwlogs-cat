@@ -5,7 +5,7 @@ Put message to  to CloudWatch Logs.
 ## Usage
 
 ```
-Usage of ./cwlogs-cat:
+Usage of cwlogs-cat:
   -g string
       log-group-name
   -s string
