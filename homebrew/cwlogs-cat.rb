@@ -1,7 +1,7 @@
 require 'formula'
 
 class CwlogsCat < Formula
-  VERSION = '0.1.0'
+  VERSION = '0.1.1'
 
   homepage 'https://github.com/winebarrel/cwlogs-cat'
   url "https://github.com/winebarrel/cwlogs-cat/releases/download/v#{VERSION}/cwlogs-cat-v#{VERSION}-darwin-amd64.gz"
